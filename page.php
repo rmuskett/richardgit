@@ -9,10 +9,17 @@
 		<h1 class="title"> GiT & GitHub Version Control</h1>
 				
 			<p>	This is a small demo of the GiT version control system running 
-			on a private server. It is setup with two on-server repositories
-			one providing a DEV environment and another LIVE environment.</p>
+			on a private server using a virtual host environment. It is based on a 
+			typical distributed workflow, using GitHub and a single on server 
+			GiT controlled repository for the LIVE production environment.</p>
 
 			<br />
+
+			<p>	These pages describe the archituture of this GiT based, distributed
+			version control workflow and how it is used. Much of the content is 
+			based on the ProGit pages on GitHub authored by SCOTT CHACON.</p>
+
+
 
 			<p>Using a working repository on your development laptop, this 
 			demo shows how to keep the on server repositories in sync with
