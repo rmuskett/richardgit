@@ -21,7 +21,7 @@
 			<div id="menu">
 				
 				<ul class="menu">
-				<li class="menu"><a href="http://www.seeng.org/website/default.php">Back to SeEng.org</a></li>
+				<li class="menu"><a href="#">Home</a></li>
 				<li class="menu"><a href="#">Intro to GiT</a></li>
 				<li class="menu"><a href="#">Local Repositories</a></li>
 				<li class="menu"><a href="#">Remote Servers</a></li>

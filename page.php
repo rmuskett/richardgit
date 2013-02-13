@@ -36,13 +36,19 @@
 				
 		</div> <!-- end entry -->
                 
-		</div> <!-- end #content-area -->
+	</div> <!-- end #content-area -->
 		
 			<div> <!-- This is the sideBar Div -->
 				
 				<div id="sidebar-inner" class="clear">
 				
-					This is the sidebar content controls
+					<p>In the sideBar you'll find hints, notes and 
+					and further instructions to explain any difficult
+					points and things that need highlighting.</p>
+
+					<p>This site is built using the instructions and
+					workflow defined here. You will be able to test
+					and work with this site as a sandbox.</p>
 				
 				
 				
