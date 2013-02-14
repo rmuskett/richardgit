@@ -9,10 +9,9 @@
 		<h1 class="title"> GiT & GitHub Version Control</h1>
 				
 			<p>	This is a small, workflow specific demo of the GiT version control 
-				system running on a private server in a virtual hosted environment. 
-				It is based on a typical distributed workflow, using GitHub and a 
-				single on server GiT controlled repository for the LIVE production 
-				environment.</p>
+				system. It is based on a typical distributed workflow, using 
+				GitHub and a single on server GiT controlled repository for 
+				the LIVE production environment.</p>
 
 			<p>	These pages describe the archituture of this GiT based, workflow 
 				and how it is used. The workflow and much of the content is based 
@@ -31,6 +30,8 @@
 				new features, then testing and sharing of the changes before they 
 				are merged into the master branch and pushed to the LIVE 
 				environment.</p>
+
+				<img src="images/workflow.png">
 
 			<br /><br />
 
