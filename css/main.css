@@ -1,0 +1,64 @@
+@import "reset.css";
+
+/* Typography */
+body, 
+input, 
+textarea, 
+select, 
+button {font-family: Helvetica, Arial, sans-serif; color:#C1C9D1; font-size: 12px;}
+
+b {font-family: "Times New Roman", Times, serif; font-weight: bold; font-style: italic;}
+
+p {margin:0 0 20px; line-height: 1.4;}
+
+h1 {font-weight: bold; line-height: 1.6; font-size: 24px;}
+
+/* Layout */
+
+#wrapper {
+	border: 0px black solid;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	width: 1010px;
+	}
+
+#mainDiv {
+	border: 0px black solid;
+	margin: 0 auto;
+	width: 1000px;
+	border-radius: 15px;
+	background: #C9C9D0;
+	}
+
+#mainContent {
+	float: left;
+	border: 0px black solid;
+	margin-right: 20px;
+	width: 650px;
+	border-top-left-radius:15px;
+	border-bottom-left-radius:15px;
+	padding: 30px;
+	background: #1512B7;
+	}
+
+#sideBar {
+	float: left;
+	margin-bottom: 20px;
+	width: 200px;
+	border-radius: 15px;
+	padding: 30px;
+	color: #414155;
+	background: #C9C9D0;
+	}
+
+#footGap {
+	clear: both;
+	}
+
+	#footerPos {
+	border: 0px black solid;
+	width: 600px;
+	margin-left: 10px;
+	color: #000;
+	}

@@ -1,13 +1,19 @@
-<div id="footer" class="clearfix">
-		
-			
-<p id="copyright">2012 | <a href="http://git-scm.com/book/en/Getting-Started-Git-Basics">ProGit Manual</a></p>			
-			
-			
-</div> <!-- end #footer -->
-		
-</div> <!-- end #container -->	
+<?php
 
-	
+echo <<<_footer
+
+</div>
+
+<div id='footerPos'>
+<p><strong>GiT Distributed Workflow Working Example: </strong><a href="http://git-scm.com/book/en/Getting-Started">ProGiT Manual on GitHub</a></p>
+</div>
+
+</div>
+
 </body>
 </html>
+
+_footer;
+
+
+?>
