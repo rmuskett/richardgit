@@ -62,14 +62,15 @@ include_once('header.php');
 		is as it was when you first pulled down the files.</p>
 
 		<p>You can check this with a simple git command - 
-		myself $: git status. This is a really really useful command as 
-		it will should you the current status of your working directory 
-		at any point in time.</p>
+		<span class='codex'>myself:~$ git status</span>. This is a really 
+		really useful command as it will should you the current status of 
+		your working directory at any point in time.</p>
 
 		<p>If you modify a file, by just editing the file and saving it, 
-		and then run - myself $: git status. You'll see something 
-		like this:</p>
+		and then run - <span class='codex'>myself:~$ git status</span>. You'll 
+		see something like this:</p>
 
+		<p class='codex'>
 		On branch master<br />
 		#<br />
 		# Changes not staged for commit:<br />
@@ -79,11 +80,11 @@ include_once('header.php');
 		#	modified:   css/main.css<br />
 		#	modified:   footer.php<br />
 		#	modified:   index.php<br />
+		</p>
+		
 
-		<br />
-
-		<p>What this is telling you is you're on the branch called master. you 
-		have three files which have been modified, but these have not yet 
+		<p>What this is telling you is you're on the branch called master. 
+		You have three files which have been modified, but these have not yet 
 		been set to staged.</p>
 
 		<p>The staging area is a file status that prepares  one or more 
@@ -95,13 +96,34 @@ include_once('header.php');
 		with it for a bit and all will become clear I hope.</p>
 
 		<p>So next we have to add our modified files to the staging area. 
-		We do this with the command - myself $: git add </p>
+		We do this with the command - <span class='codex'>myself:~$ git 
+		add</span></p>
 
-		<p>Like so for the three files above myself $: git add css/main.css 
-		footer.php index.php</p>
+		<p>Like so for the three files above - <span class='codex'>myself:~$ 
+		git add css/main.css footer.php index.php</span></p>
 
 		<p>Note main.css is in a sub-directory which needs to be specified 
 		in the path.</p>
+
+		<p>Okay, what we are doing here is taking the current modification
+		state of our working directory ready to build a snapshot of it. We
+		only need to worry about the files we've actually modified since our
+		last snapshot, or in GiT termonology a Commit. The next Commit will
+		include all the changed file that we put in the staging area. Note
+		we don't have to put every modified file into the commit, we can select
+		the ones we want by staging them, however, if we have files that we have 
+		modified but not staged, they will stay that way and GiT will tell us.
+		</p>
+
+		<p>The Commit history is important because we can roll-back to a 
+		previous commit status if we need too. Commits are heavily used in the
+		branching system which we will cover next. </p>
+
+		<p>Okay this is a good time to take a look at the ProGit manual, 
+		<a href="http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository">GiT Basics and HowTo</a> 
+		so you get a feel for the first few commands. Remember the
+		git status command is the best and easiest way of actually seeing where
+		you are i.e. what status all your files are in.</p>
 
 	</div>   <!-- end of mainContent -->
 
@@ -109,43 +131,51 @@ include_once('header.php');
 
 		<h3>Working Locally</h3>
 
-		<p>	In the sideBar you'll find hints, notes and 
-			and further instructions to explain any difficult
-			points and things that need highlighting.</p>
+		<p>	You work in the terminal to use and control GiT.
+			The first task is to point you login to the directory
+			you want to work in. GiT must be initilised there first, 
+			see page six for detail, but here we are assuming you
+			have done this.</p>
 
-		<p>	This site is built using the instructions and
-			workflow defined here. You will be able to test
-			and work with this site as a sandbox.</p>
+		<p>	At your command prompt the key word for a GiT command is
+			git. Let's assume your command prompt is something like this:
+			<span class='codex'>myself:~$</span> the myself bit will be whatever your username and
+			computer name is when you installed the OS.</p>
 				
-		<p>	For the reason above the pages have been kept
-			very simple, they are just plain html pages, which
-			can easily be edited, this will enable people with
-			little coding knowledge to actually play with the pages
-			and GiT.</p> 
+		<p>	A GiT command comes after the prompt something like this
+			<span class='codex'>myself:~$ git status</span></p> 
 
 
+			<h4>Pages Links</h4>
+			Use these to move around this site.
 			<br /><br />
-			<strong>ProGiT Manual Pages</strong>
+
+			<a href="index.php">1 - Intro and Basics </a>
+			<br /><br />
+			<a href="page2.php">2 - Working in Your Local Repository</a>
+			<br /><br />
+			<a href="page3.php">3 - Branching and Branch Merges</a>
+			<br /><br />
+			<a href="page4.php">4 - Pushing to Your Remote</a>
+			<br /><br />
+			<a href="page5.php">5 - Pushing upto the LIVE Repository</a>
+			<br /><br />
+			<a href="page6.php">6 - Cloning down from GitHub  </a>
+			<br /><br />
+
+			<h4>References
+			<br />
+			And The ProGiT Manual</h4>
+			Key links to the ProGit manual and other useful resources.
+			<br /><br />
+			<a href="http://git-scm.com/book/en/Getting-Started">Getting Started</a>
 			<br /><br />
 			<a href="http://git-scm.com/book/en/Getting-Started-Installing-Git">Installing GiT on your Local Machine</a>
 			<br /><br />
-			<strong>These Pages</strong>
+			<a href="http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository">GiT Basics and HowTo</a>
 			<br /><br />
-			<a href="index.php">1 - Intro and Basics </a>
-			<br /><br />
-			<a href="page2.php">2 - Your Local Repository </a>
-			<br /><br />
-			<a href="page3.php">3 - Uploading to GitHub </a>
-			<br /><br />
-			<a href="page4.php">4 - GitHub to LIVE </a>
-			<br /><br />
-			<a href="page5.php">5 - Cloning from GitHub  </a>
-			<br /><br />
-
-
-
-
-
+			<a href="http://git-scm.com/book/en/Git-Branching">Branching the What and How</a>
+			
 	</div> <!-- end of sideBar -->
 
 
