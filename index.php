@@ -9,11 +9,11 @@ include_once('header.php');
 
 <div id='wrapper'>	
 
-<div id='mainDiv'>
+<div id='mainDiv' class='gradient'>
 
 <div id='mainContent'>
 
-		<h1>Welcome to The GiT Demo for SeEng</h1>
+		<h1>Welcome to The GiT Distributed Workflow Demo</h1>
 
 		<br /><br />
 
@@ -44,7 +44,7 @@ include_once('header.php');
 
 		<br /><br />
 
-		<h4>The Basics</h4>
+		<h3>The Difficult Bit</h3>
 
 		<p>	GiT and most other version control systems are devilishy difficult
 			to  understand when you initially come across them. For a developer
@@ -68,17 +68,16 @@ include_once('header.php');
 				
 		<br /><br />
 
-		<h4>Using GiT - Summary</h4>
+		<h3>Using GiT</h3>
 
 		<p>	First GiT has to be installed on your development machine.
 			This is nothing to do with using GitHub or any other remote
-			repository, GiT is a development of the Linux Project and used 
-			to manage version control of the Kernel amoungst many other things.
+			repository, it is to version control files on your local machine.
 			GiT is pretty easy to install via distro repositories or direct via
 			a tar file which you can then compile. Which ever way you do it, 
-			first we have to get GiT running on your machine, so the best guide
-			I know of is here. Use the link in the SideBar to go to GiT install 
-			pages of the Pro Git manual on GitHub.</p>
+			first we have to get GiT running on your machine. The best guide
+			I know of is the ProGit manual. You'll find a link to the install
+			process in the SideBar, so go ahead and install GiT on your machine.</p>
 
 		<p>	Once you have Git running locally, you are now in a position to
 			pull down - or Clone - the master from the remote repository. This
@@ -113,9 +112,11 @@ include_once('header.php');
 			of the workflow providing references to the use of GiT and
 			GitHub as we go. Onwards and Upwards.</p>
 
-	</div>
+	</div>   <!-- end of mainContent -->
 
 	<div id='sideBar'>
+
+		<h3>More Info</h3>
 
 		<p>	In the sideBar you'll find hints, notes and 
 			and further instructions to explain any difficult
@@ -129,13 +130,27 @@ include_once('header.php');
 			very simple, they are just plain html pages, which
 			can easily be edited, this will enable people with
 			little coding knowledge to actually play with the pages
-			and GiT. 
+			and GiT.</p> 
+			
 			<br /><br />
 			<strong>ProGiT Manual Pages</strong>
 			<br /><br />
 			<a href="http://git-scm.com/book/en/Getting-Started-Installing-Git">Installing GiT on your Local Machine</a>
-			<br /><br /></p>
-	</div>
+			<br /><br />
+			<strong>These Pages</strong>
+			<br /><br />
+			<a href="index.php">1 - Intro and Basics </a>
+			<br /><br />
+			<a href="page2.php">2 - Your Local Repository </a>
+			<br /><br />
+			<a href="page3.php">3 - Uploading to GitHub </a>
+			<br /><br />
+			<a href="page4.php">4 - GitHub to LIVE </a>
+			<br /><br />
+			<a href="page5.php">5 - Cloning from GitHub  </a>
+			<br /><br />
+
+	</div> <!-- end of sideBar -->
 
 
 <div id='footGap'></div>

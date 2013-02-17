@@ -12,6 +12,7 @@ b {font-family: "Times New Roman", Times, serif; font-weight: bold; font-style: 
 p {margin:0 0 20px; line-height: 1.4;}
 
 h1 {font-weight: bold; line-height: 1.6; font-size: 24px;}
+h3 {font-weight: bold; line-height: 2.2; font-size: 18px;}
 
 /* Layout */
 
@@ -28,37 +29,61 @@ h1 {font-weight: bold; line-height: 1.6; font-size: 24px;}
 	margin: 0 auto;
 	width: 1000px;
 	border-radius: 15px;
-	background: #C9C9D0;
+	
 	}
 
 #mainContent {
 	float: left;
 	border: 0px black solid;
-	margin-right: 20px;
+	margin-right: 15px;
 	width: 650px;
 	border-top-left-radius:15px;
 	border-bottom-left-radius:15px;
 	padding: 30px;
-	background: #1512B7;
+	color: #000;
+	background: #C4C7CB;
 	}
 
 #sideBar {
 	float: left;
-	margin-bottom: 20px;
 	width: 200px;
-	border-radius: 15px;
 	padding: 30px;
-	color: #414155;
-	background: #C9C9D0;
+	color: #B7BEC4;
 	}
 
 #footGap {
 	clear: both;
 	}
 
-	#footerPos {
+#footerPos {
 	border: 0px black solid;
 	width: 600px;
 	margin-left: 10px;
 	color: #000;
 	}
+
+/* Styling */
+
+.gradient {
+	background: #fff;
+	background-image: -webkit-gradient-linear(left bottom, left top, from(#5B5C5E), to(#000));
+	background-image: -webkit-linear-gradient(bottom, #5B5C5E, #000);
+	background-image: -moz-linear-gradient(bottom, #5B5C5E, #000);
+	background-image: -o-linear-gradient(bottom, #5B5C5E, #000);
+	background-image: linear-gradient(top, #5B5C5E, #000);
+	}
+
+
+/* List Styling */
+
+ul.basicList {
+	padding-left: 30px;
+	}
+
+
+/* Links */
+
+a:link {color:#6889D2;}      /* unvisited link */
+a:visited {color:#687CD7;}  /* visited link */
+a:hover {color:#920E0E;}  /* mouse over link */
+a:active {color:#0000FF;}  /* selected link */ 
