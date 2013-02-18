@@ -44,6 +44,60 @@ include_once('header.php');
 
 		<br /><br />
 
+		In bullet point form it works like this.
+
+		<br /><br />
+
+			<ul class='basicList'>
+ 			<li>Every developer has a GitHub account.</li>
+			<li>The co-ordinators account acts as a master account</li>
+			<li>Each dev needs to install GiT on their development machine (local)</li>
+			<li>Each dev needs to set up a GitHub account</li>
+			<li>Each dev Clones down the remote master to their machine</li>
+			<li>Each dev works on changes on their dev machine</li>
+			<li>Each dev pushes up their changes to their remote (their GitHub account) when ready</li>
+			<li>Each dev tells the co-ordinator they have changes for review as needed (This is a pull request on GitHub)</li>
+			<li>The co-ord pulls the dev changes into their local repository, in a branch</li>
+			<li>The co-ord review the changes and tests on their local machine (nothing done permanently yet)</li>
+			<li>If the co-ord is happy, he merges the changes from the dev into his local master branch</li>
+			<li>The co-ord then pushes his local master branch up to the remote master on GitHub (that is his GitHub account)</li>
+			<li>The co-ord can then pull the remote master (on GitHub) to the LIVE server and the update is then LIVE on the server</li>
+			</ul>
+			<br /><br />
+
+			<ul class='basicList'>
+ 			<li>Devs can then pull down the updated remote master to update their local repositories.</li>
+			<li>Devs can continue to develop fixes and enhancements as needed (mostly done in branches locally)</li>
+			<li>Devs then continue the cycle, pushing changes to their remote and creating a pull request to the co-ord.</li>
+			</ul>
+
+			<br /><br />
+
+			<p>Note: GiT will not allow the system to get out of sync, so if a 
+			Dev has done work on an older version of master it does not 
+			matter, the system will tell the dev to merge the latest 
+			version of master first before pushing up to their remote 
+			repository, they won’t lose any work or anything. This sync 
+			function is very slick and what it's all about, it keeps 
+			everyone up to date and the master repositories in-line, 
+			the co-ord has control of both the remote master and LIVE 
+			which mirror each other, so he can review and test any 
+			code changes before they are made LIVE.</p>
+			
+			<p>Branching is a brilliant feature, you can develop changes in 
+			a branch and test them, just like using your local master. 
+			If they work, you merge them to your local master, if they 
+			don’t you just rollback or throw them away and try again, 
+			so changes to master only come about when the co-ord is 
+			satisfied with the changes. You can branch as many times 
+			as you like and have as many open as you like. However, 
+			I suggest both Remote Master and LIVE only have a master 
+			branch, that way we know both of these are ‘clean’. Devs 
+			can have what they like and so can the co-ord on his 
+			local machine.</p>
+
+ 			<br /><br />
+
 		<h3>The Difficult Bit</h3>
 
 		<p>	GiT and most other version control systems are devilishy difficult
@@ -76,7 +130,7 @@ include_once('header.php');
 			GiT is pretty easy to install via distro repositories or direct via
 			a tar file which you can then compile. Which ever way you do it, 
 			first we have to get GiT running on your machine. The best guide
-			I know of is the ProGit manual. You'll find a link to the install
+			I know is the ProGit manual. You'll find a link to the install
 			process in the SideBar, so go ahead and install GiT on your machine.</p>
 
 		<p>	Once you have Git running locally, you are now in a position to
