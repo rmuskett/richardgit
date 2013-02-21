@@ -30,6 +30,8 @@ include_once('header.php');
 		<br /><br /><br /><br /><br /><br /><br /><br /><br />
 		<br /><br /><br /><br /><br /><br /><br /><br /><br />
 		<br /><br /><br /><br /><br /><br /><br /><br /><br />
+		<br /><br /><br /><br /><br /><br /><br /><br /><br />
+		<br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 	</div>   <!-- end of mainContent -->
 
@@ -52,35 +54,7 @@ include_once('header.php');
 			and GiT.</p> 
 
 
-			<h4>Pages Links</h4>
-			Use these to move around this site.
-			<br /><br />
-
-			<a href="index.php">1 - Intro and Basics </a>
-			<br /><br />
-			<a href="page2.php">2 - Working in Your Local Repository</a>
-			<br /><br />
-			<a href="page3.php">3 - Branching and Branch Merges</a>
-			<br /><br />
-			<a href="page4.php">4 - Pushing to Your Remote</a>
-			<br /><br />
-			<a href="page5.php">5 - Pushing upto the LIVE Repository</a>
-			<br /><br />
-			<a href="page6.php">6 - Cloning down from GitHub  </a>
-			<br /><br />
-
-			<h4>References
-			<br />
-			And The ProGiT Manual</h4>
-			Key links to the ProGit manual and other useful resources.
-			<br /><br />
-			<a href="http://git-scm.com/book/en/Getting-Started">Getting Started</a>
-			<br /><br />
-			<a href="http://git-scm.com/book/en/Getting-Started-Installing-Git">Installing GiT on your Local Machine</a>
-			<br /><br />
-			<a href="http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository">GiT Basics and HowTo</a>
-			<br /><br />
-			<a href="http://git-scm.com/book/en/Git-Branching">Branching the What and How</a>
+	<?php include_once('menu.php'); ?>		
 			
 	</div> <!-- end of sideBar -->
 
