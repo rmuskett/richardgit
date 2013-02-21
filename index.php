@@ -40,6 +40,30 @@ include_once('header.php');
 			are merged into the master branch and pushed to the LIVE 
 			environment.</p>
 
+			<h3>The Difficult Bit</h3>
+
+		<p>	GiT and most other version control systems are devilishy difficult
+			to  understand when you initially come across them. For a developer
+			working alone the effort seems to outweigh the benefits unless the
+			project is particuarly complex. Version control really comes into
+			its own when you have a group of developers working on a single
+			project.</p>
+				
+		<p>	The first thing to get your head around in the concept of local
+			version control on your development machine and the totally 
+			separate concept of a central or master repository on a remote
+			machine. The local repository (your local copy) needs to be kept
+			in sync with the master copy on the remote repository. To do
+			that with a group of developers, everyone must be able to get
+			the master copy from the remote, edit it and then post it back 
+			again for others to sync with.</p>
+
+		<p>	We will come back to the initial project setup later, for now we
+			will assume the project is up and running and a remote master already
+			exists together with a LIVE production environment.</p>	
+				
+		<br /><br />
+
 		<img src="images/workflow.png">
 
 		<br /><br />
@@ -97,30 +121,6 @@ include_once('header.php');
 			local machine.</p>
 
  			<br /><br />
-
-		<h3>The Difficult Bit</h3>
-
-		<p>	GiT and most other version control systems are devilishy difficult
-			to  understand when you initially come across them. For a developer
-			working alone the effort seems to outweigh the benefits unless the
-			project is particuarly complex. Version control really comes into
-			its own when you have a group of developers working on a single
-			project.</p>
-				
-		<p>	The first thing to get your head around in the concept of local
-			version control on your development machine and the totally 
-			separate concept of a central or master repository on a remote
-			machine. The local repository (your local copy) needs to be kept
-			in sync with the master copy on the remote repository. To do
-			that with a group of developers, everyone must be able to get
-			the master copy from the remote, edit it and then post it back 
-			again for others to sync with.</p>
-
-		<p>	We will come back to the initial project setup later, for now we
-			will assume the project is up and running and a remote master already
-			exists together with a LIVE production environment.</p>	
-				
-		<br /><br />
 
 		<h3>Using GiT</h3>
 
