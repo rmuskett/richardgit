@@ -17,7 +17,7 @@ echo <<< _MENU
 			<br /><br />
 			<a href="page4.php">4 - Pushing to Your Remote</a>
 			<br /><br />
-			<a href="page6.php">5 - Pushing upto the LIVE Repository</a>
+			<a href="page5.php">5 - Pushing upto the LIVE Repository</a>
 			<br /><br />
 			<a href="page6.php">6 - Cloning down from GitHub  </a>
 			<br /><br />

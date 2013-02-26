@@ -89,20 +89,40 @@ include_once('header.php');
 
 		<h3>Branching</h3>
 
-		<p>	In the sideBar you'll find hints, notes and 
-			and further instructions to explain any difficult
-			points and things that need highlighting.</p>
+		<p>	Below you will find a few of the key commands needed to 
+			use branching effectively. Branching is best used locally,
+			the intention is not to push branches up to your remote
+			repositories, or the Master or LIVE instances. </p>
 
-		<p>	This site is built using the instructions and
-			workflow defined here. You will be able to test
-			and work with this site as a sandbox.</p>
+		<span class='codex'>myself:~$ git branch</span><br />
 				
-		<p>	For the reason above the pages have been kept
-			very simple, they are just plain html pages, which
-			can easily be edited, this will enable people with
-			little coding knowledge to actually play with the pages
-			and GiT.</p> 
+		<p>	This will list all the branches you have in the current
+		repository.</p>
 
+		<span class='codex'>myself:~$ git branch NewBranch </span><br />
+				
+		<p>	This will create a new branch called NewBranch, you can
+			use pretty much any name you like, typically branches
+			are named after features or bugs you are working on.</p>
+
+		<p>	You can open as many branches as you want, normally one
+			for each bug or feature you are working on is a typical
+			practice.</p>
+
+		<span class='codex'>myself:~$ git checkout NewBranch </span><br />
+				
+		<p>	To start working in the new branch you create you use the
+			checkout command, this will mve your pointer to any branch you
+			current have. You working directory will reflect the file status
+			of this branch.</p>
+
+		<span class='codex'>myself:~$ git merge NewBranch </span><br />
+				
+		<p>	To merge a branch, that is to combine it with say your master
+			branch and update all the files in master to the latest 
+			status, you merge. To do this you must first move to 
+			(Checkout) the branch you want to merge with and then 
+			merge the other branch, in this case NewBranch into it.</p>
 
 	<?php include_once('menu.php'); ?>
 			
