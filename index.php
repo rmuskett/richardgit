@@ -22,7 +22,7 @@ include_once('header.php');
 			GitHub and a single on server GiT controlled repository for 
 			the LIVE production environment.</p>
 
-		<p>	These pages describe the archituture of this GiT based, workflow 
+		<p>	These pages describe the architecture of this GiT based, workflow 
 			and how it is used. The workflow and much of the content is based 
 			on the ProGit pages on GitHub authored by SCOTT CHACON.</p>
 
@@ -42,10 +42,10 @@ include_once('header.php');
 
 			<h3>The Difficult Bit</h3>
 
-		<p>	GiT and most other version control systems are devilishy difficult
+		<p>	GiT and most other version control systems are devilishly difficult
 			to  understand when you initially come across them. For a developer
 			working alone the effort seems to outweigh the benefits unless the
-			project is particuarly complex. Version control really comes into
+			project is particularly complex. Version control really comes into
 			its own when you have a group of developers working on a single
 			project.</p>
 				
